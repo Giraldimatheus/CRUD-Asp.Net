@@ -1,0 +1,41 @@
+﻿@model DATA.DB.Cliente
+@{
+    ViewBag.Title = "InserirEditar";
+}
+<div class="container">
+    <h2>InserirEditar</h2>
+
+    <form class="row" method="post">
+        @Html.HiddenFor(model => model.Cliente_ID)
+        <div class="col-md-12">
+            <label>Informe o Nome</label>
+            <input name="nome" value="@Model.Nome" type="text" placeholder="Informe seu nome" class="form-control" required />
+        </div>
+
+        <div class="col-md-12">
+            <label>Informe o Telefone</label>
+            <input name="telefone" value="@Model.Telefone" type="text" placeholder="Informe seu Telefone" class="form-control" required />
+        </div>
+
+        <div class="col-md-12">
+            <label>Informe o Email</label>
+            <input name="email" value="@Model.Email" type="email" placeholder="Informe seu Email" class="form-control" required />
+        </div>
+
+        <div class="btn">
+
+            <div class="mx-auto" style="width: 100px;">
+                <button class="btn" type="submit">Confirmar</button>
+            </div>
+
+        </div>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.min.js"></script>
+<script>
+</script>
+

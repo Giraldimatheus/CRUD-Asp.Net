@@ -1,0 +1,17 @@
+﻿input{
+
+    max-width: 100%
+
+}
+
+.navbar{
+    position:relative !important;
+}
+
+.f-white{
+    color:#FFF;
+}
+
+.mt-3{
+    margin-top:10px;
+}

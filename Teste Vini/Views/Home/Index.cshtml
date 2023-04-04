@@ -1,0 +1,60 @@
+﻿@model List<DATA.DB.Cliente>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+
+    <div class="col-md-12">
+        <div class="btn btn-primary">
+
+            <a class="f-white" href="@Url.RouteUrl("inserir")">Inserir</a>
+        </div>
+
+    </div>
+    <div class="col-md-12 mt-3">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Telefone</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var cliente in Model)
+                {
+                    <tr>
+                        <td>@cliente.Nome</td>
+                        <td>@cliente.Telefone</td>
+                        <td>@cliente.Email</td>
+
+
+                        <td>
+                            <div class="link">
+                                <a href="@Url.Action("Excluir", new { id = cliente.Cliente_ID })" class="excluir">Excluir</a>
+                                <a href="@Url.RouteUrl("editar", new {id = cliente.Cliente_ID })" class="alterar">Alterar</a>
+                            </div>
+                        </td>
+                    </tr>
+
+
+
+
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+
+
+

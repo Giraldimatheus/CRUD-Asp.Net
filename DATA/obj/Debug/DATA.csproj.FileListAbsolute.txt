@@ -1,0 +1,12 @@
+C:\Users\mhgir\source\repos\Teste Vini\DATA\bin\Debug\DATA.dll.config
+C:\Users\mhgir\source\repos\Teste Vini\DATA\bin\Debug\DATA.dll
+C:\Users\mhgir\source\repos\Teste Vini\DATA\bin\Debug\DATA.pdb
+C:\Users\mhgir\source\repos\Teste Vini\DATA\bin\Debug\EntityFramework.dll
+C:\Users\mhgir\source\repos\Teste Vini\DATA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mhgir\source\repos\Teste Vini\DATA\bin\Debug\EntityFramework.xml
+C:\Users\mhgir\source\repos\Teste Vini\DATA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mhgir\source\repos\Teste Vini\DATA\obj\Debug\DATA.csproj.AssemblyReference.cache
+C:\Users\mhgir\source\repos\Teste Vini\DATA\obj\Debug\DATA.csproj.CoreCompileInputs.cache
+C:\Users\mhgir\source\repos\Teste Vini\DATA\obj\Debug\DATA.csproj.CopyComplete
+C:\Users\mhgir\source\repos\Teste Vini\DATA\obj\Debug\DATA.dll
+C:\Users\mhgir\source\repos\Teste Vini\DATA\obj\Debug\DATA.pdb
